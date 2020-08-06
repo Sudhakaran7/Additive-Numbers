@@ -1,0 +1,50 @@
+You are given string whose digits can form additive sequence.
+A valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.
+Given a string containing only digits '0'-'9', write a function to determine if it's an additive number.
+Note: Numbers in the additive sequence cannot have leading zeros, so sequence 1, 2, 03 or 1, 02, 3 is invalid
+
+Input Description:
+S a string containing digits
+
+Output Description:
+True or False
+
+Sample Input:
+112358
+
+Sample Output:
+True
+
+Explanation:
+1+1=2, 2+3=5, 3+5=8
+so the output is True
+
+Sample Input:
+2345
+
+Sample Output:
+False
+
+Sample Input:
+121325
+
+Sample Output:
+True
+
+Sample Input:
+101203304
+
+Sample Output:
+True
+
+Sample Input:
+201203406
+
+Sample Output:
+False
+
+Sample Input:
+10012023033
+
+Sample Output:
+False
